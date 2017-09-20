@@ -80,7 +80,7 @@ namespace WordSnackSolver
         {
             get
             {
-                var fileName = "sk.txt";
+                var fileName = "20k.txt";
                 var folderPath = Environment.CurrentDirectory;
                 return Path.Combine(folderPath, fileName);
             }
